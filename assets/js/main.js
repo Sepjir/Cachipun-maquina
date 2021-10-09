@@ -28,7 +28,7 @@ for(i=1; i <= vecesJugar; i++){
         if (jugadaUsuario === jugadaMaquina) {
           alert(`En la ronda ${i}: Oh, no... empataron`)
           document.write(`<h2>En la ronda ${i} elegiste: ${jugadaUsuario} y la maquina eligio ${jugadaMaquina} y ¡Haz empatado con la máquina!</h2>`);
-        } else if ((jugadaUsuario === "piedra" && jugadaMaquina === 'tijera') || (jugadaUsuario === "papel" && jugadaMaquina === 'piedra') || (jugadaUsuario === "tijera" && jugadaMaquina === 'papel')) {
+        } else if ((jugadaUsuario === "piedra" && jugadaMaquina === 'tijera') || (jugadaUsuario === "papel" && jugadaMaquina === 'piedra') || (jugadaUsuario === "tijeras" && jugadaMaquina === 'papel')) {
           alert(`En la ronda ${i}: ¡GANASTE!`)
           document.write(`<h2>En la ronda ${i} elegiste: ${jugadaUsuario} y la maquina eligio ${jugadaMaquina} y ¡Haz ganado contra la máquina!</h2>`);
         } else {
